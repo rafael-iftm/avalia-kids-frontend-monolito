@@ -12,7 +12,7 @@ async function populateDatabase() {
     await db.collection("users").deleteMany({});
     await db.collection("students").deleteMany({});
     await db.collection("questions").deleteMany({});
-    await db.collection("quiz_answers").deleteMany({});
+    await db.collection("quizzes").deleteMany({});
 
     console.log("✅ Banco de dados limpo!");
 
